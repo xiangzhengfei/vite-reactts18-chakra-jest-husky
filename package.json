@@ -1,13 +1,8 @@
 {
   "name": "vibrant",
-  "version": "0.0.0",
-  "author": {
-    "name": "David Sima",
-    "email": "hello@david-sima.dev",
-    "url": "https://github.com/The24thDS"
-  },
+  "version": "1.0.0",
   "private": true,
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -27,9 +22,14 @@
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@react-pdf/renderer": "^3.4.2",
     "framer-motion": "^8.5.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-background-video": "^2.0.0",
+    "react-dom": "^18.2.0",
+    "react-full-screen": "^1.1.1",
+    "react-player": "^2.15.1",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -59,7 +59,7 @@
     "prettier": "^2.5.1",
     "rollup": "^3.10.1",
     "ts-jest": "^29.0.5",
-    "typescript": "^4.5.5",
+    "typescript": "^4.9.5",
     "vite": "^4.0.4"
   }
 }

@@ -1,0 +1,11 @@
+.responsive-media {
+    width: 100vw; /* Default width for larger screens */
+    height: 100vh;
+    scale: 110%;
+  
+    /* Adjust width for smaller screens */
+    @media (max-width: 768px) {
+        /* width: 100vw !important; */
+        scale: 200%;
+    }
+  }
